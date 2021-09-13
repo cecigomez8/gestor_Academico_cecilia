@@ -22,7 +22,7 @@ function Footer(props){
 		              Su dirección<br />
 		              Barrio<br />
 		              Ciudad<br />
-		              <i className="fa fa-phone fa-lg"></i>: Teléfono 1<br />
+		              <i className="fa fa-phone fa-lg"></i>: Teléfono 1,<br />
 		              <i className="fa fa-fax fa-lg"></i>: Teléfono 2<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
                          correo@email.com</a>
