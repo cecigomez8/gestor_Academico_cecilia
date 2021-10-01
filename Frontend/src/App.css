@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.fullScreen {
+  background-color: #6192fb88;
+}
+
+
+.cecilia {
+  width: 20px;
+  height: 20px;
+}

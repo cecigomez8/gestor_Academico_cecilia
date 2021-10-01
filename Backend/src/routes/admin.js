@@ -6,10 +6,10 @@ const {getAdmins, getAdmin, createProfesor, createPersona, createEstudiante, cre
     createAdministrador, createAsignatura, editPersona, editAsignatura, editPrograma} = require('../controllers/admin.controllers');
 
 //Rutas para obtener datos (Tipo GET)
-router.route('/')
+router.route('/getAdmins')
     .get(getAdmins); 
 
-router.route('/:id')
+router.route('/getAdmin/:id')
     .get(getAdmin); 
 
 //Rutas para crear datos (Insertar en tablas) (Tipo POST)

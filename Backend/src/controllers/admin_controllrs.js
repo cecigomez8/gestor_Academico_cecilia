@@ -44,12 +44,12 @@ adminCtrl.createPersona = async (req, res) => {
   const {DocIdent, nombre, apellido, genero, fechaNac, nacionalidad, 
       direccion, celular, correoElectronico } = req.body;
     await mysqlConnection.query(
-    'INSERT INTO persona values (?, ?, ?, ?, ?, ?, ?, ?, ?) ',
+    'INSERT INTO persona VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) ',
     [DocIdent, nombre, apellido, genero, fechaNac, nacionalidad, 
       direccion, celular, correoElectronico]
     , (err, rows, fields) => {
-    if(!err)() =>{  
-      res.json({message: 200});
+    if(!err){ 
+      res.json({message:200});
     }
     else{
       console.log("=====> Error profesor en tabla profesor" + err);
@@ -208,4 +208,3 @@ adminCtrl.editAsignatura = async (req, res) => {
 
 
 module.exports = adminCtrl;
-

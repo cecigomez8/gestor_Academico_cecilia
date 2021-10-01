@@ -1,5 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Form from 'react-bootstrap/Form'
+
 
 function Footer(props){
     return(
@@ -21,11 +23,11 @@ function Footer(props){
                     <address>
 		              Su dirección<br />
 		              Barrio<br />
-		              Ciudad<br />
-		              <i className="fa fa-phone fa-lg"></i>: Teléfono 1,<br />
-		              <i className="fa fa-fax fa-lg"></i>: Teléfono 2<br />
+		              Cali<br />
+		              <i className="fa fa-phone fa-lg"></i>: 3024304022 1<br />
+		              <i className="fa fa-fax fa-lg"></i>: 3217075189o 2<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
-                         correo@email.com</a>
+                         esteicygomez.8@qmail.com</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
@@ -41,8 +43,18 @@ function Footer(props){
             </div>
             <div className="row justify-content-center">             
                 <div className="col-auto">
+                <img src={"noch.png"} className="cecilia"/>
                     <p>© Copyright 2021 Universidad de la Calle</p>
                 </div>
+                <>
+  <Form.Label htmlFor="exampleColorInput">Color pink</Form.Label>
+  <Form.Control
+    type="color"
+    id="exampleColorInput"
+    defaultValue="#563d7c"
+    title="Choose your color"
+  />
+</>
             </div>
         </div>
     </div>
